@@ -1,0 +1,83 @@
+** Drc report for HP-Channel-v099.kicad_pcb **
+** Created on 2026-11-20T17:03:59 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 17 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.0457 mm, 78.9327 mm): Reference field of C33
+    @(100.6457 mm, 79.0815 mm): Segment of C34 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(100.6457 mm, 120.0815 mm): Segment of C18 on B.Silkscreen
+    @(101.0457 mm, 119.9327 mm): Reference field of C17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.6900 mm, 71.6125 mm): Reference field of C22
+    @(119.0500 mm, 71.8850 mm): Pad 2 [/SwitchB/SOURCE] of C26 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.6900 mm, 71.6125 mm): Reference field of C22
+    @(119.0500 mm, 70.7500 mm): Pad 1 [/SwitchB/-5V] of C26 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.6900 mm, 75.4225 mm): Reference field of C21
+    @(119.0500 mm, 74.5600 mm): Pad 1 [/SwitchB/+15V] of C25 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.6900 mm, 75.4225 mm): Reference field of C21
+    @(119.0500 mm, 75.6950 mm): Pad 2 [/SwitchB/SOURCE] of C25 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.0457 mm, 78.9327 mm): Reference field of C33
+    @(100.1357 mm, 78.3652 mm): Pad 1 [+5V_IDC] of C34 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.0457 mm, 78.9327 mm): Reference field of C33
+    @(100.1357 mm, 80.0902 mm): Pad 2 [GND_IDC] of C34 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.6900 mm, 112.6125 mm): Reference field of C6
+    @(119.0500 mm, 112.8850 mm): Pad 2 [/SwitchA/SOURCE] of C10 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.6900 mm, 112.6125 mm): Reference field of C6
+    @(119.0500 mm, 111.7500 mm): Pad 1 [/SwitchA/-5V] of C10 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.6900 mm, 116.4225 mm): Reference field of C5
+    @(119.0500 mm, 115.5600 mm): Pad 1 [/SwitchA/+15V] of C9 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.6900 mm, 116.4225 mm): Reference field of C5
+    @(119.0500 mm, 116.6950 mm): Pad 2 [/SwitchA/SOURCE] of C9 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.0457 mm, 119.9327 mm): Reference field of C17
+    @(100.1357 mm, 119.3652 mm): Pad 1 [+5V_IDC] of C18 on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.0457 mm, 119.9327 mm): Reference field of C17
+    @(100.1357 mm, 121.0902 mm): Pad 2 [GND_IDC] of C18 on B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(98.5000 mm, 131.1600 mm): Via [GND_24V] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(102.3800 mm, 127.7400 mm): Via [+24V] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8600 mm, 130.4000 mm): Via [GND_24V] on F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

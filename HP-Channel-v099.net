@@ -1,0 +1,7663 @@
+(export
+	(version "E")
+	(design
+		(source "/home/denis/Projects/KiCad/HiPIMS/HP-Channel-v099/HP-Channel-v099.kicad_sch")
+		(date "2026-11-21T17:40:09")
+		(tool "Eeschema 10.0.8-10.0.8~ubuntu26.04.1")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "HP-Channel-v099.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/Power/")
+			(tstamps "/4bbc1613-f1f0-4a22-935f-87fb42fdea87/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "power.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "3")
+			(name "/SwitchA/")
+			(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "switch.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "4")
+			(name "/SwitchB/")
+			(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "switch.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "H1")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
+			(fields
+				(field
+					(name "Cluster") "MNT_HOLES")
+				(field
+					(name "Role") "H1")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
+			)
+			(property
+				(name "Cluster")
+				(value "MNT_HOLES")
+			)
+			(property
+				(name "Role")
+				(value "H1")
+			)
+			(property
+				(name "Sheetname")
+				(value "HP-Channel-v099")
+			)
+			(property
+				(name "Sheetfile")
+				(value "HP-Channel-v099.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "39046426-335b-441e-afb8-8d36c51e7cf5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
+			(fields
+				(field
+					(name "Cluster") "MNT_HOLES")
+				(field
+					(name "Role") "H2")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
+			)
+			(property
+				(name "Cluster")
+				(value "MNT_HOLES")
+			)
+			(property
+				(name "Role")
+				(value "H2")
+			)
+			(property
+				(name "Sheetname")
+				(value "HP-Channel-v099")
+			)
+			(property
+				(name "Sheetfile")
+				(value "HP-Channel-v099.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e1c789a4-6041-4cad-b28c-995d9e235e29")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Cluster") "MNT_HOLES")
+				(field
+					(name "Role") "H3")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_ISO14580")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Cluster")
+				(value "MNT_HOLES")
+			)
+			(property
+				(name "Role")
+				(value "H3")
+			)
+			(property
+				(name "Sheetname")
+				(value "HP-Channel-v099")
+			)
+			(property
+				(name "Sheetfile")
+				(value "HP-Channel-v099.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "965beca8-2a45-4aa6-9be2-cf7405eba226")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Cluster") "MNT_HOLES")
+				(field
+					(name "Role") "H4")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_ISO14580")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Cluster")
+				(value "MNT_HOLES")
+			)
+			(property
+				(name "Role")
+				(value "H4")
+			)
+			(property
+				(name "Sheetname")
+				(value "HP-Channel-v099")
+			)
+			(property
+				(name "Sheetfile")
+				(value "HP-Channel-v099.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "24768faf-a1e6-499d-982b-7a3fb754db82")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Conn HP Out")
+			(footprint "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical")
+			(description "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Cluster") "CONN_INPUT")
+				(field
+					(name "Role") "CONN")
+				(field
+					(name "Footprint") "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_02x07_Odd_Even")
+				(description "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Cluster")
+				(value "CONN_INPUT")
+			)
+			(property
+				(name "Role")
+				(value "CONN")
+			)
+			(property
+				(name "Sheetname")
+				(value "HP-Channel-v099")
+			)
+			(property
+				(name "Sheetfile")
+				(value "HP-Channel-v099.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_2x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8a9ed2dd-7e86-4518-bd90-2f02f4b0d45d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "470 uF 50V")
+			(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "PWR_P24V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "PWR_P24V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/4bbc1613-f1f0-4a22-935f-87fb42fdea87/")
+			)
+			(tstamps "d1557035-31b5-4896-8fc5-9ee7592ceb84")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "10 uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "PWR_P24V")
+				(field
+					(name "Role") "C_MID")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "PWR_P24V")
+			)
+			(property
+				(name "Role")
+				(value "C_MID")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/4bbc1613-f1f0-4a22-935f-87fb42fdea87/")
+			)
+			(tstamps "9903e5fa-cd19-426d-9a37-e468ed9d685e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "PWR_P24V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "PWR_P24V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/4bbc1613-f1f0-4a22-935f-87fb42fdea87/")
+			)
+			(tstamps "af4aed33-ddb2-43f3-83d2-41d627f7d91f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "LED")
+			(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "PWR_P24V")
+				(field
+					(name "Role") "D_LED")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "PWR_P24V")
+			)
+			(property
+				(name "Role")
+				(value "D_LED")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/4bbc1613-f1f0-4a22-935f-87fb42fdea87/")
+			)
+			(tstamps "fead3cdd-99a0-4550-b5cd-acd3de93ceb9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "P24V In")
+			(footprint "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal")
+			(description "DC Barrel Jack with an internal switch")
+			(fields
+				(field
+					(name "Cluster") "PWR_P24V")
+				(field
+					(name "Role") "CONN")
+				(field
+					(name "Footprint") "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DC Barrel Jack with an internal switch")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Barrel_Jack_Switch")
+				(description "DC Barrel Jack with an internal switch")
+			)
+			(property
+				(name "Cluster")
+				(value "PWR_P24V")
+			)
+			(property
+				(name "Role")
+				(value "CONN")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "DC power barrel jack connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "BarrelJack*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/4bbc1613-f1f0-4a22-935f-87fb42fdea87/")
+			)
+			(tstamps "23678e4b-e690-4025-a5fb-30224ced639c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "PWR_P24V")
+				(field
+					(name "Role") "R_LED")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "PWR_P24V")
+			)
+			(property
+				(name "Role")
+				(value "R_LED")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Power/")
+				(tstamps "/4bbc1613-f1f0-4a22-935f-87fb42fdea87/")
+			)
+			(tstamps "e1b71ae8-a30b-4f14-a9a4-596b604a0445")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "47 uF 50V")
+			(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Role") "C_BULK_P24V")
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK_P24V")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "a8d968be-ecd0-4d46-af73-1fc9f00dce9c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "10 uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P15V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P15V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "8fe9b8e4-64f2-43cc-a961-529bacd49de1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "10 uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_N5V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_N5V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "fd6065ad-48b9-4ef3-be17-97fdcd57b547")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "1 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_CTL_P")
+				(field
+					(name "Role") "C")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_CTL_P")
+			)
+			(property
+				(name "Role")
+				(value "C")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "1ba7b11c-63f8-42f5-b569-36b397c1e7f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "10 uF 50V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BYPASS_P24V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS_P24V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "b071303f-6b19-4d8c-87fe-6d432a4dac0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P15V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P15V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "5db699c0-d7ce-4cd9-a32e-e1e5be19b17e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_N5V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_N5V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "276ae83b-b038-406f-8338-1e6f939e866b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "1 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_CTL_N")
+				(field
+					(name "Role") "C")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_CTL_N")
+			)
+			(property
+				(name "Role")
+				(value "C")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "38b85aa5-e0e0-41d0-9456-85e0976000c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "1 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_RST")
+				(field
+					(name "Role") "C")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_RST")
+			)
+			(property
+				(name "Role")
+				(value "C")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "27ebf6d5-da28-4d8c-bc6c-b48ac2c47ba3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "10 uF 16V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BULK_P15V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK_P15V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "48170d3d-f959-43da-b261-ec7869d3e1d9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "10 uF 16V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BULK_N5V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK_N5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "cf8236c5-9ae6-476a-bfc3-74f7ac376b6f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BYPASS_P15V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS_P15V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "f8ee6986-3aca-428d-92e0-c9425e3e75de")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BYPASS_N5V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS_N5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "8141af2e-4842-441a-bb95-0b02e28508c7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P5V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P5V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "463b9d83-e8ae-49db-aae1-b35b8ad4cdc5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "10 uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P5V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P5V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "5b5798fb-882e-4e7a-9922-c5460a4da6fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "47 pF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "C_BLANK")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "C_BLANK")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "bb4ab783-b813-46f2-82f1-d07584022272")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "LED")
+			(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "LED_P15V")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "LED_P15V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "45ffbdc8-d531-4a85-bb33-b571fc8bc5c9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "LED")
+			(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "LED_N5V")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "LED_N5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "e616541e-b1c1-460c-8fe8-b926ad995bdb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "US1M")
+			(footprint "Diode_SMD:D_SMA_Handsoldering")
+			(description "DESAT")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "D1")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA_Handsoldering")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DESAT")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "D1")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "a84e915e-8a76-4489-b906-0ce0967c0f01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "US1M")
+			(footprint "Diode_SMD:D_SMA_Handsoldering")
+			(description "DESAT")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "D2")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA_Handsoldering")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DESAT")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "D2")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "0cd5255b-8a99-4587-8344-f39a90519637")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D6")
+			(value "BAT54S")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://www.diodes.com/assets/Datasheets/ds11005.pdf")
+			(description "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-23")
+			(fields
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "D_CLAMP")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/ds11005.pdf")
+				(field
+					(name "Description") "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-23")
+			)
+			(libsource
+				(lib "Diode")
+				(part "BAT54S")
+				(description "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "D_CLAMP")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "schottky diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "ee400a0f-9874-497a-8358-a0a456a6f2a6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "IC1")
+			(value "UCC21750QDWRQ1")
+			(footprint "Custom_Power_Driver:SOIC127P1030X265-16N")
+			(datasheet "https://www.ti.com/lit/gpn/UCC21750-Q1")
+			(description "Gate Drivers Automotive, single channel isolated gate driver for SiC/IGBT with advanced protection and high-CMTI 16-SOIC -40 to 125")
+			(fields
+				(field
+					(name "Height") "2.65")
+				(field
+					(name "Manufacturer_Name") "Texas Instruments")
+				(field
+					(name "Manufacturer_Part_Number") "UCC21750QDWRQ1")
+				(field
+					(name "Mouser Part Number") "595-UCC21750QDWRQ1")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21750QDWRQ1?qs=BJlw7L4Cy7%2FADnnEzoLd5w%3D%3D")
+				(field
+					(name "Arrow Part Number") "UCC21750QDWRQ1")
+				(field
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/ucc21750qdwrq1/texas-instruments?utm_currency=USD&region=nac")
+				(field
+					(name "Role") "UCC")
+				(field
+					(name "Cluster") "DRIVER")
+				(field
+					(name "Footprint") "Custom_Power_Driver:SOIC127P1030X265-16N")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/UCC21750-Q1")
+				(field
+					(name "Description") "Gate Drivers Automotive, single channel isolated gate driver for SiC/IGBT with advanced protection and high-CMTI 16-SOIC -40 to 125")
+			)
+			(libsource
+				(lib "Custom_Power_Driver")
+				(part "UCC21750QDWRQ1")
+				(description "Gate Drivers Automotive, single channel isolated gate driver for SiC/IGBT with advanced protection and high-CMTI 16-SOIC -40 to 125")
+			)
+			(property
+				(name "Height")
+				(value "2.65")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "UCC21750QDWRQ1")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "595-UCC21750QDWRQ1")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21750QDWRQ1?qs=BJlw7L4Cy7%2FADnnEzoLd5w%3D%3D")
+			)
+			(property
+				(name "Arrow Part Number")
+				(value "UCC21750QDWRQ1")
+			)
+			(property
+				(name "Arrow Price/Stock")
+				(value "https://www.arrow.com/en/products/ucc21750qdwrq1/texas-instruments?utm_currency=USD&region=nac")
+			)
+			(property
+				(name "Role")
+				(value "UCC")
+			)
+			(property
+				(name "Cluster")
+				(value "DRIVER")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "e838c564-b6d2-4e7f-9b12-d4ae52a24ec4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Signal Out")
+			(footprint "Custom_Terminal_Block:JST_VH_B4P-VH_1x04_P3.96mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Cluster") "SWITCH")
+				(field
+					(name "Role") "CONN")
+				(field
+					(name "Footprint") "Custom_Terminal_Block:JST_VH_B4P-VH_1x04_P3.96mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Custom_Connector")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Cluster")
+				(value "SWITCH")
+			)
+			(property
+				(name "Role")
+				(value "CONN")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "9c042a5c-cc64-40b5-b9ea-050d3bf43328")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "10K")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "SWITCH")
+				(field
+					(name "Role") "R_CL")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SWITCH")
+			)
+			(property
+				(name "Role")
+				(value "R_CL")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "fc112aca-e057-4f9c-a63f-b63a18ddb0e9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "10")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "R On A")
+			(fields
+				(field
+					(name "Cluster") "SWITCH")
+				(field
+					(name "Role") "R_H")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "R On A")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SWITCH")
+			)
+			(property
+				(name "Role")
+				(value "R_H")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "426819e9-3f46-4d30-86db-20a0bdc3c026")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "3.3")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "R Off A")
+			(fields
+				(field
+					(name "Cluster") "SWITCH")
+				(field
+					(name "Role") "R_L")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "R Off A")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SWITCH")
+			)
+			(property
+				(name "Role")
+				(value "R_L")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "8fc03fce-cc5c-4dc6-a954-101895082f49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_CTL_P")
+				(field
+					(name "Role") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_CTL_P")
+			)
+			(property
+				(name "Role")
+				(value "R")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "09293d01-6136-47d6-a733-99668e40d458")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_CTL_N")
+				(field
+					(name "Role") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_CTL_N")
+			)
+			(property
+				(name "Role")
+				(value "R")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "17581a75-32bc-4214-96e2-b69dda00b3f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_RST")
+				(field
+					(name "Role") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_RST")
+			)
+			(property
+				(name "Role")
+				(value "R")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "ff7cf5b7-889d-4596-834e-5e47330e547b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "R_LED_P15V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "R_LED_P15V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "46aecce7-846a-4066-89ae-dc1c6b812dd0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "5K1")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "DRIVER")
+				(field
+					(name "Role") "R_FLT_PU")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "DRIVER")
+			)
+			(property
+				(name "Role")
+				(value "R_FLT_PU")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "7c332b54-b146-4eff-8240-7d8e63324f22")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "1K5")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "R_LED_N5V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "R_LED_N5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "6f5fa050-469a-449e-93d5-daddc5cd1451")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "470R")
+			(footprint "Resistor_SMD:R_1210_3225Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "R")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "28e8838c-e321-4dee-a6f2-cdb6beafafa4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "DCDC 24 +15/-5")
+			(footprint "Custom_Converter_DCDC:Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT")
+			(datasheet "https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf")
+			(description "5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "DCDC")
+				(field
+					(name "Footprint") "Custom_Converter_DCDC:Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT")
+				(field
+					(name "Datasheet") "https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf")
+				(field
+					(name "Description") "5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout")
+			)
+			(libsource
+				(lib "Custom_Converter_DCDC")
+				(part "MGJ2D2415055C")
+				(description "5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "DCDC")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "DC-DC Converter")
+			)
+			(sheetpath
+				(names "/SwitchA/")
+				(tstamps "/cdcaa08d-f25f-4ffb-810d-cc1277d03786/")
+			)
+			(tstamps "cc038bc0-d1d2-43c2-8e1f-78c0ae50b7cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "47 uF 50V")
+			(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Role") "C_BULK_P24V")
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK_P24V")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "a8d968be-ecd0-4d46-af73-1fc9f00dce9c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C21")
+			(value "10 uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P15V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P15V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "8fe9b8e4-64f2-43cc-a961-529bacd49de1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "10 uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_N5V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_N5V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "fd6065ad-48b9-4ef3-be17-97fdcd57b547")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "1 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_CTL_P")
+				(field
+					(name "Role") "C")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_CTL_P")
+			)
+			(property
+				(name "Role")
+				(value "C")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "1ba7b11c-63f8-42f5-b569-36b397c1e7f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C24")
+			(value "10 uF 50V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BYPASS_P24V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS_P24V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "b071303f-6b19-4d8c-87fe-6d432a4dac0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C25")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P15V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P15V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "5db699c0-d7ce-4cd9-a32e-e1e5be19b17e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C26")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_N5V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_N5V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "276ae83b-b038-406f-8338-1e6f939e866b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C27")
+			(value "1 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_CTL_N")
+				(field
+					(name "Role") "C")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_CTL_N")
+			)
+			(property
+				(name "Role")
+				(value "C")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "38b85aa5-e0e0-41d0-9456-85e0976000c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C28")
+			(value "1 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_RST")
+				(field
+					(name "Role") "C")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_RST")
+			)
+			(property
+				(name "Role")
+				(value "C")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "27ebf6d5-da28-4d8c-bc6c-b48ac2c47ba3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C29")
+			(value "10 uF 16V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BULK_P15V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK_P15V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "48170d3d-f959-43da-b261-ec7869d3e1d9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C30")
+			(value "10 uF 16V")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BULK_N5V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK_N5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "cf8236c5-9ae6-476a-bfc3-74f7ac376b6f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C31")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BYPASS_P15V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS_P15V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "f8ee6986-3aca-428d-92e0-c9425e3e75de")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C32")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "C_BYPASS_N5V")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS_N5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "8141af2e-4842-441a-bb95-0b02e28508c7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C33")
+			(value "100 nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P5V")
+				(field
+					(name "Role") "C_BYPASS")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P5V")
+			)
+			(property
+				(name "Role")
+				(value "C_BYPASS")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "463b9d83-e8ae-49db-aae1-b35b8ad4cdc5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C34")
+			(value "10 uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_P5V")
+				(field
+					(name "Role") "C_BULK")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_P5V")
+			)
+			(property
+				(name "Role")
+				(value "C_BULK")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "5b5798fb-882e-4e7a-9922-c5460a4da6fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C35")
+			(value "47 pF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "C_BLANK")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "C_BLANK")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "bb4ab783-b813-46f2-82f1-d07584022272")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D7")
+			(value "LED")
+			(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "LED_P15V")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "LED_P15V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "45ffbdc8-d531-4a85-bb33-b571fc8bc5c9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D8")
+			(value "LED")
+			(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "LED_N5V")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "LED_N5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "e616541e-b1c1-460c-8fe8-b926ad995bdb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D9")
+			(value "US1M")
+			(footprint "Diode_SMD:D_SMA_Handsoldering")
+			(description "DESAT")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "D1")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA_Handsoldering")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DESAT")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "D1")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "a84e915e-8a76-4489-b906-0ce0967c0f01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D10")
+			(value "US1M")
+			(footprint "Diode_SMD:D_SMA_Handsoldering")
+			(description "DESAT")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "D2")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA_Handsoldering")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DESAT")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "D2")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "0cd5255b-8a99-4587-8344-f39a90519637")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D11")
+			(value "BAT54S")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://www.diodes.com/assets/Datasheets/ds11005.pdf")
+			(description "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-23")
+			(fields
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "D_CLAMP")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/ds11005.pdf")
+				(field
+					(name "Description") "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-23")
+			)
+			(libsource
+				(lib "Diode")
+				(part "BAT54S")
+				(description "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "D_CLAMP")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "schottky diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "ee400a0f-9874-497a-8358-a0a456a6f2a6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "IC2")
+			(value "UCC21750QDWRQ1")
+			(footprint "Custom_Power_Driver:SOIC127P1030X265-16N")
+			(datasheet "https://www.ti.com/lit/gpn/UCC21750-Q1")
+			(description "Gate Drivers Automotive, single channel isolated gate driver for SiC/IGBT with advanced protection and high-CMTI 16-SOIC -40 to 125")
+			(fields
+				(field
+					(name "Height") "2.65")
+				(field
+					(name "Manufacturer_Name") "Texas Instruments")
+				(field
+					(name "Manufacturer_Part_Number") "UCC21750QDWRQ1")
+				(field
+					(name "Mouser Part Number") "595-UCC21750QDWRQ1")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21750QDWRQ1?qs=BJlw7L4Cy7%2FADnnEzoLd5w%3D%3D")
+				(field
+					(name "Arrow Part Number") "UCC21750QDWRQ1")
+				(field
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/ucc21750qdwrq1/texas-instruments?utm_currency=USD&region=nac")
+				(field
+					(name "Role") "UCC")
+				(field
+					(name "Cluster") "DRIVER")
+				(field
+					(name "Footprint") "Custom_Power_Driver:SOIC127P1030X265-16N")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/UCC21750-Q1")
+				(field
+					(name "Description") "Gate Drivers Automotive, single channel isolated gate driver for SiC/IGBT with advanced protection and high-CMTI 16-SOIC -40 to 125")
+			)
+			(libsource
+				(lib "Custom_Power_Driver")
+				(part "UCC21750QDWRQ1")
+				(description "Gate Drivers Automotive, single channel isolated gate driver for SiC/IGBT with advanced protection and high-CMTI 16-SOIC -40 to 125")
+			)
+			(property
+				(name "Height")
+				(value "2.65")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "UCC21750QDWRQ1")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "595-UCC21750QDWRQ1")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21750QDWRQ1?qs=BJlw7L4Cy7%2FADnnEzoLd5w%3D%3D")
+			)
+			(property
+				(name "Arrow Part Number")
+				(value "UCC21750QDWRQ1")
+			)
+			(property
+				(name "Arrow Price/Stock")
+				(value "https://www.arrow.com/en/products/ucc21750qdwrq1/texas-instruments?utm_currency=USD&region=nac")
+			)
+			(property
+				(name "Role")
+				(value "UCC")
+			)
+			(property
+				(name "Cluster")
+				(value "DRIVER")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "e838c564-b6d2-4e7f-9b12-d4ae52a24ec4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Signal Out")
+			(footprint "Custom_Terminal_Block:JST_VH_B4P-VH_1x04_P3.96mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Cluster") "SWITCH")
+				(field
+					(name "Role") "CONN")
+				(field
+					(name "Footprint") "Custom_Terminal_Block:JST_VH_B4P-VH_1x04_P3.96mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Custom_Connector")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Cluster")
+				(value "SWITCH")
+			)
+			(property
+				(name "Role")
+				(value "CONN")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "9c042a5c-cc64-40b5-b9ea-050d3bf43328")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "10K")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "SWITCH")
+				(field
+					(name "Role") "R_CL")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SWITCH")
+			)
+			(property
+				(name "Role")
+				(value "R_CL")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "fc112aca-e057-4f9c-a63f-b63a18ddb0e9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "10")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "R On A")
+			(fields
+				(field
+					(name "Cluster") "SWITCH")
+				(field
+					(name "Role") "R_H")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "R On A")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SWITCH")
+			)
+			(property
+				(name "Role")
+				(value "R_H")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "426819e9-3f46-4d30-86db-20a0bdc3c026")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "3.3")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "R Off A")
+			(fields
+				(field
+					(name "Cluster") "SWITCH")
+				(field
+					(name "Role") "R_L")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "R Off A")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SWITCH")
+			)
+			(property
+				(name "Role")
+				(value "R_L")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "8fc03fce-cc5c-4dc6-a954-101895082f49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_CTL_P")
+				(field
+					(name "Role") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_CTL_P")
+			)
+			(property
+				(name "Role")
+				(value "R")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "09293d01-6136-47d6-a733-99668e40d458")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_CTL_N")
+				(field
+					(name "Role") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_CTL_N")
+			)
+			(property
+				(name "Role")
+				(value "R")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "17581a75-32bc-4214-96e2-b69dda00b3f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "100R")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "SPOKE_RST")
+				(field
+					(name "Role") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "SPOKE_RST")
+			)
+			(property
+				(name "Role")
+				(value "R")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "ff7cf5b7-889d-4596-834e-5e47330e547b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "R_LED_P15V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "R_LED_P15V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "46aecce7-846a-4066-89ae-dc1c6b812dd0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "5K1")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "DRIVER")
+				(field
+					(name "Role") "R_FLT_PU")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "DRIVER")
+			)
+			(property
+				(name "Role")
+				(value "R_FLT_PU")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "7c332b54-b146-4eff-8240-7d8e63324f22")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "1K5")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "R_LED_N5V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "R_LED_N5V")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "6f5fa050-469a-449e-93d5-daddc5cd1451")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "470R")
+			(footprint "Resistor_SMD:R_1210_3225Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster") "DESAT")
+				(field
+					(name "Role") "R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "DESAT")
+			)
+			(property
+				(name "Role")
+				(value "R")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "28e8838c-e321-4dee-a6f2-cdb6beafafa4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "DCDC 24 +15/-5")
+			(footprint "Custom_Converter_DCDC:Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT")
+			(datasheet "https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf")
+			(description "5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout")
+			(fields
+				(field
+					(name "Cluster") "DCDC24P15N5")
+				(field
+					(name "Role") "DCDC")
+				(field
+					(name "Footprint") "Custom_Converter_DCDC:Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT")
+				(field
+					(name "Datasheet") "https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf")
+				(field
+					(name "Description") "5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout")
+			)
+			(libsource
+				(lib "Custom_Converter_DCDC")
+				(part "MGJ2D2415055C")
+				(description "5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout")
+			)
+			(property
+				(name "Cluster")
+				(value "DCDC24P15N5")
+			)
+			(property
+				(name "Role")
+				(value "DCDC")
+			)
+			(property
+				(name "Sheetname")
+				(value "SwitchB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "switch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "DC-DC Converter")
+			)
+			(sheetpath
+				(names "/SwitchB/")
+				(tstamps "/d6c18d60-f72e-46b2-8edc-1db784079d42/")
+			)
+			(tstamps "cc038bc0-d1d2-43c2-8e1f-78c0ae50b7cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Barrel_Jack_Switch")
+			(description "DC Barrel Jack with an internal switch")
+			(footprints
+				(fp "BarrelJack*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Barrel_Jack_Switch")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "DC Barrel Jack with an internal switch")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_02x07_Odd_Even")
+			(description "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_2x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_02x07_Odd_Even")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "Pin_13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "Pin_14")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Custom_Connector")
+			(part "Conn_01x04")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Custom_Converter_DCDC")
+			(part "MGJ2D2415055C")
+			(description "5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout")
+			(docs "https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "DCDC 24 +15/-5")
+				(field
+					(name "Footprint") "Custom_Converter_DCDC:Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT")
+				(field
+					(name "Datasheet") "https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf")
+				(field
+					(name "Description") "5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "-VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "-VOUT")
+					(type "power_out")
+				)
+				(pin
+					(num "6")
+					(name "0V")
+					(type "power_out")
+				)
+				(pin
+					(num "7")
+					(name "+VOUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Custom_Power_Driver")
+			(part "UCC21750QDWRQ1")
+			(description "Gate Drivers Automotive, single channel isolated gate driver for SiC/IGBT with advanced protection and high-CMTI 16-SOIC -40 to 125")
+			(docs "https://www.ti.com/lit/gpn/UCC21750-Q1")
+			(fields
+				(field
+					(name "Reference") "IC")
+				(field
+					(name "Value") "UCC21750QDWRQ1")
+				(field
+					(name "Footprint") "Custom_Power_Driver:SOIC127P1030X265-16N")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/UCC21750-Q1")
+				(field
+					(name "Description") "Gate Drivers Automotive, single channel isolated gate driver for SiC/IGBT with advanced protection and high-CMTI 16-SOIC -40 to 125")
+				(field
+					(name "Height") "2.65")
+				(field
+					(name "Manufacturer_Name") "Texas Instruments")
+				(field
+					(name "Manufacturer_Part_Number") "UCC21750QDWRQ1")
+				(field
+					(name "Mouser Part Number") "595-UCC21750QDWRQ1")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21750QDWRQ1?qs=BJlw7L4Cy7%2FADnnEzoLd5w%3D%3D")
+				(field
+					(name "Arrow Part Number") "UCC21750QDWRQ1")
+				(field
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/ucc21750qdwrq1/texas-instruments?utm_currency=USD&region=nac")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "AIN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "DESAT")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "COM")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "OUTH")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "VDD")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "OUTL")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "CLMPI")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "VEE")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "IN+")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "IN-")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "RDY")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "~{FLT}")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "~{RST}/EN")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "VCC")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "APWM")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D")
+			(description "Diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Diode")
+			(part "BAT54S")
+			(description "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323")
+			(docs "https://www.diodes.com/assets/Datasheets/ds11005.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "BAT54S")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/ds11005.pdf")
+				(field
+					(name "Description") "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "COM")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole_Pad")
+			(description "Mounting Hole with connection")
+			(footprints
+				(fp "MountingHole*Pad*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole_Pad")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Custom_Connector")
+			(uri "${KICAD10_CUSTOM_SYMBOL_DIR}/Custom_Connector.kicad_sym")
+		)
+		(library
+			(logical "Custom_Converter_DCDC")
+			(uri "${KICAD10_CUSTOM_SYMBOL_DIR}/Custom_Converter_DCDC.kicad_sym")
+		)
+		(library
+			(logical "Custom_Power_Driver")
+			(uri "${KICAD10_CUSTOM_SYMBOL_DIR}/Custom_Power_Driver.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Diode")
+			(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5V_IDC")
+			(class "Default")
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "15")
+				(pinfunction "VCC_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "15")
+				(pinfunction "VCC_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "+24V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "+VIN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "+VIN_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/CTL_A")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/CTL_B")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/FLT_A")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "12")
+				(pinfunction "RDY_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "13")
+				(pinfunction "~{FLT}_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/FLT_B")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "12")
+				(pinfunction "RDY_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "13")
+				(pinfunction "~{FLT}_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/RST_A")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/RST_B")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/SwitchA/+15V")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "5")
+				(pinfunction "VDD_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "+VOUT_7")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "10")
+			(name "/SwitchA/-5V")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "8")
+				(pinfunction "VEE_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "-VOUT_5")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "11")
+			(name "/SwitchA/CLMPI")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "7")
+				(pinfunction "CLMPI_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/SwitchA/CTL_N")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "11")
+				(pinfunction "IN-_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/SwitchA/CTL_P")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "10")
+				(pinfunction "IN+_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/SwitchA/DESAT")
+			(class "Default")
+			(node
+				(ref "C19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "3")
+				(pinfunction "COM_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "2")
+				(pinfunction "DESAT_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/SwitchA/DRAIN")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/SwitchA/OUTH")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "4")
+				(pinfunction "OUTH_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/SwitchA/OUTL")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "6")
+				(pinfunction "OUTL_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/SwitchA/RST_SN")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "14")
+				(pinfunction "~{RST}/EN_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/SwitchA/SOURCE")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "1")
+				(pinfunction "AIN_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "3")
+				(pinfunction "COM_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "0V_6")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "20")
+			(name "/SwitchB/+15V")
+			(class "Default")
+			(node
+				(ref "C21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D11")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "5")
+				(pinfunction "VDD_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "+VOUT_7")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "21")
+			(name "/SwitchB/-5V")
+			(class "Default")
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "8")
+				(pinfunction "VEE_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "-VOUT_5")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "22")
+			(name "/SwitchB/CLMPI")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "7")
+				(pinfunction "CLMPI_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/SwitchB/CTL_N")
+			(class "Default")
+			(node
+				(ref "C27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "11")
+				(pinfunction "IN-_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/SwitchB/CTL_P")
+			(class "Default")
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "10")
+				(pinfunction "IN+_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/SwitchB/DESAT")
+			(class "Default")
+			(node
+				(ref "C35")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D11")
+				(pin "3")
+				(pinfunction "COM_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "D9")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "2")
+				(pinfunction "DESAT_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/SwitchB/DRAIN")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/SwitchB/OUTH")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "4")
+				(pinfunction "OUTH_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/SwitchB/OUTL")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "6")
+				(pinfunction "OUTL_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/SwitchB/RST_SN")
+			(class "Default")
+			(node
+				(ref "C28")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "14")
+				(pinfunction "~{RST}/EN_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "/SwitchB/SOURCE")
+			(class "Default")
+			(node
+				(ref "C21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C35")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D11")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D7")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D8")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "1")
+				(pinfunction "AIN_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "3")
+				(pinfunction "COM_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "0V_6")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "31")
+			(name "GND_24V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "-VIN_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "-VIN_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "32")
+			(name "GND_IDC")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C28")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "H1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "H2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "IC1")
+				(pin "9")
+				(pinfunction "GND_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC2")
+				(pin "9")
+				(pinfunction "GND_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(D1-A)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(D2-A)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(D3-A)")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(D4-K)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(D5-K)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(D7-A)")
+			(class "Default")
+			(node
+				(ref "D7")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(D8-A)")
+			(class "Default")
+			(node
+				(ref "D8")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "Net-(D10-A)")
+			(class "Default")
+			(node
+				(ref "D10")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D9")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "Net-(D10-K)")
+			(class "Default")
+			(node
+				(ref "D10")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(IC1-APWM-Pad16)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "16")
+				(pinfunction "APWM_16")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(IC2-APWM-Pad16)")
+			(class "Default")
+			(node
+				(ref "IC2")
+				(pin "16")
+				(pinfunction "APWM_16")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(J5-Pad3)")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "3")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)

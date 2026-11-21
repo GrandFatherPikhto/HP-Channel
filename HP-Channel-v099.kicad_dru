@@ -1,0 +1,41 @@
+(version 1)
+
+# HP-Channel-v099 isolation rules (20.11.2026, Denis: 2.5 mm everywhere at 800 V, the board is conformally coated). Domains by net name, no net classes needed:
+#   arm A   = /SwitchA/* + Net-(D2-A), Net-(D3-A), Net-(D4-K), Net-(D5-K)
+#   arm B   = /SwitchB/* + Net-(D7-A), Net-(D8-A), Net-(D10-A), Net-(D10-K)
+#   primary = every other net (GND_IDC, +5V_IDC, CTL/RST/FLT, +24V, GND_24V)
+#             and the UCC inputs that live on the arm sheets: /Switch?/CTL_P, CTL_N, RST_SN
+#   HV      = collector potential: /Switch?/DRAIN and the DESAT diode chain
+# Zones obey these rules on refill, so the pours pull back by themselves.
+
+(rule "arm A to arm B"
+  (condition "(A.NetName == '/SwitchA/*' || A.NetName == 'Net-(D2-A)' || A.NetName == 'Net-(D3-A)' || A.NetName == 'Net-(D4-K)' || A.NetName == 'Net-(D5-K)') && A.NetName != '/Switch?/CTL_P' && A.NetName != '/Switch?/CTL_N' && A.NetName != '/Switch?/RST_SN' && (B.NetName == '/SwitchB/*' || B.NetName == 'Net-(D7-A)' || B.NetName == 'Net-(D8-A)' || B.NetName == 'Net-(D10-A)' || B.NetName == 'Net-(D10-K)') && B.NetName != '/Switch?/CTL_P' && B.NetName != '/Switch?/CTL_N' && B.NetName != '/Switch?/RST_SN'")
+  (constraint clearance (min 2.5mm)))
+
+# 2.5 mm at 800 V holds ONLY under conformal coating (IPC-2221B B4: 2.44 mm); uncoated B2 wants 4.0 mm.
+(rule "arm A to primary"
+  (condition "(A.NetName == '/SwitchA/*' || A.NetName == 'Net-(D2-A)' || A.NetName == 'Net-(D3-A)' || A.NetName == 'Net-(D4-K)' || A.NetName == 'Net-(D5-K)') && A.NetName != '/Switch?/CTL_P' && A.NetName != '/Switch?/CTL_N' && A.NetName != '/Switch?/RST_SN' && ((!(B.NetName == '/SwitchA/*' || B.NetName == 'Net-(D2-A)' || B.NetName == 'Net-(D3-A)' || B.NetName == 'Net-(D4-K)' || B.NetName == 'Net-(D5-K)') && !(B.NetName == '/SwitchB/*' || B.NetName == 'Net-(D7-A)' || B.NetName == 'Net-(D8-A)' || B.NetName == 'Net-(D10-A)' || B.NetName == 'Net-(D10-K)') && B.NetName != '' && B.NetName != 'unconnected-*') || !(B.NetName != '/Switch?/CTL_P' && B.NetName != '/Switch?/CTL_N' && B.NetName != '/Switch?/RST_SN'))")
+  (constraint clearance (min 2,5mm)))
+
+(rule "arm B to primary"
+  (condition "(A.NetName == '/SwitchB/*' || A.NetName == 'Net-(D7-A)' || A.NetName == 'Net-(D8-A)' || A.NetName == 'Net-(D10-A)' || A.NetName == 'Net-(D10-K)') && A.NetName != '/Switch?/CTL_P' && A.NetName != '/Switch?/CTL_N' && A.NetName != '/Switch?/RST_SN' && ((!(B.NetName == '/SwitchA/*' || B.NetName == 'Net-(D2-A)' || B.NetName == 'Net-(D3-A)' || B.NetName == 'Net-(D4-K)' || B.NetName == 'Net-(D5-K)') && !(B.NetName == '/SwitchB/*' || B.NetName == 'Net-(D7-A)' || B.NetName == 'Net-(D8-A)' || B.NetName == 'Net-(D10-A)' || B.NetName == 'Net-(D10-K)') && B.NetName != '' && B.NetName != 'unconnected-*') || !(B.NetName != '/Switch?/CTL_P' && B.NetName != '/Switch?/CTL_N' && B.NetName != '/Switch?/RST_SN'))")
+  (constraint clearance (min 2.5mm)))
+
+# Collector potential to the low-voltage nets of its own arm. The area around the DESAT diodes,
+# R11/R21 and J3.1/J4.1 is CONFORMALLY COATED (Denis, 20.11): IPC-2221B B4 (external, permanent
+# polymer coating) is 0.00305 mm/V above 500 V -> 2.44 mm at 800 V, rounded to 2.5 mm.
+# Without the coating this must be 4 mm (B2). Only these nets; the UCC pins are all
+# low-voltage relative to SOURCE and keep the ordinary clearance.
+(rule "HV to its arm"
+  (condition "(A.NetName == '/Switch?/DRAIN' || A.NetName == 'Net-(D4-K)' || A.NetName == 'Net-(D5-K)' || A.NetName == 'Net-(D10-?)') && !(B.NetName == '/Switch?/DRAIN' || B.NetName == 'Net-(D4-K)' || B.NetName == 'Net-(D5-K)' || B.NetName == 'Net-(D10-?)') && B.NetName != ''")
+  (constraint clearance (min 2.5mm)))
+
+# The two isolated low-voltage primaries (IDC vs the 24 V input): functional only.
+(rule "IDC to 24V"
+  (condition "(A.NetName == '+24V' || A.NetName == 'GND_24V' || A.NetName == 'Net-(D1-A)') && (B.NetName == 'GND_IDC' || B.NetName == '+5V_IDC' || B.NetName == '/CTL_*' || B.NetName == '/RST_*' || B.NetName == '/FLT_*')")
+  (constraint clearance (min 0.5mm)))
+
+# A DESAT diode's own two pads (SMA, 1.5 mm) - the package is what it is.
+(rule "DESAT diode own pads"
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && ((A.memberOfFootprint('D4') && B.memberOfFootprint('D4')) || (A.memberOfFootprint('D5') && B.memberOfFootprint('D5')) || (A.memberOfFootprint('D9') && B.memberOfFootprint('D9')) || (A.memberOfFootprint('D10') && B.memberOfFootprint('D10')))")
+  (constraint clearance (min 1.4mm)))

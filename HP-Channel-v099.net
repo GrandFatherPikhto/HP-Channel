@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/denis/Projects/KiCad/HiPIMS/HP-Channel-v099/HP-Channel-v099.kicad_sch")
-		(date "2026-11-21T17:40:09")
+		(date "2026-11-24T21:54:12")
 		(tool "Eeschema 10.0.8-10.0.8~ubuntu26.04.1")
 		(sheet
 			(number "1")
@@ -6899,8 +6899,8 @@
 			)
 			(node
 				(ref "D3")
-				(pin "1")
-				(pinfunction "K_1")
+				(pin "2")
+				(pinfunction "A_2")
 				(pintype "passive")
 			)
 			(node
@@ -7263,8 +7263,8 @@
 			)
 			(node
 				(ref "D8")
-				(pin "1")
-				(pinfunction "K_1")
+				(pin "2")
+				(pinfunction "A_2")
 				(pintype "passive")
 			)
 			(node
@@ -7515,12 +7515,12 @@
 		)
 		(net
 			(code "35")
-			(name "Net-(D3-A)")
+			(name "Net-(D3-K)")
 			(class "Default")
 			(node
 				(ref "D3")
-				(pin "2")
-				(pinfunction "A_2")
+				(pin "1")
+				(pinfunction "K_1")
 				(pintype "passive")
 			)
 			(node
@@ -7580,12 +7580,12 @@
 		)
 		(net
 			(code "39")
-			(name "Net-(D8-A)")
+			(name "Net-(D8-K)")
 			(class "Default")
 			(node
 				(ref "D8")
-				(pin "2")
-				(pinfunction "A_2")
+				(pin "1")
+				(pinfunction "K_1")
 				(pintype "passive")
 			)
 			(node

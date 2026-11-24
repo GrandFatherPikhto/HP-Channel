@@ -15,7 +15,7 @@
 # 2.5 mm at 800 V holds ONLY under conformal coating (IPC-2221B B4: 2.44 mm); uncoated B2 wants 4.0 mm.
 (rule "arm A to primary"
   (condition "(A.NetName == '/SwitchA/*' || A.NetName == 'Net-(D2-A)' || A.NetName == 'Net-(D3-A)' || A.NetName == 'Net-(D4-K)' || A.NetName == 'Net-(D5-K)') && A.NetName != '/Switch?/CTL_P' && A.NetName != '/Switch?/CTL_N' && A.NetName != '/Switch?/RST_SN' && ((!(B.NetName == '/SwitchA/*' || B.NetName == 'Net-(D2-A)' || B.NetName == 'Net-(D3-A)' || B.NetName == 'Net-(D4-K)' || B.NetName == 'Net-(D5-K)') && !(B.NetName == '/SwitchB/*' || B.NetName == 'Net-(D7-A)' || B.NetName == 'Net-(D8-A)' || B.NetName == 'Net-(D10-A)' || B.NetName == 'Net-(D10-K)') && B.NetName != '' && B.NetName != 'unconnected-*') || !(B.NetName != '/Switch?/CTL_P' && B.NetName != '/Switch?/CTL_N' && B.NetName != '/Switch?/RST_SN'))")
-  (constraint clearance (min 2,5mm)))
+  (constraint clearance (min 2.5mm)))
 
 (rule "arm B to primary"
   (condition "(A.NetName == '/SwitchB/*' || A.NetName == 'Net-(D7-A)' || A.NetName == 'Net-(D8-A)' || A.NetName == 'Net-(D10-A)' || A.NetName == 'Net-(D10-K)') && A.NetName != '/Switch?/CTL_P' && A.NetName != '/Switch?/CTL_N' && A.NetName != '/Switch?/RST_SN' && ((!(B.NetName == '/SwitchA/*' || B.NetName == 'Net-(D2-A)' || B.NetName == 'Net-(D3-A)' || B.NetName == 'Net-(D4-K)' || B.NetName == 'Net-(D5-K)') && !(B.NetName == '/SwitchB/*' || B.NetName == 'Net-(D7-A)' || B.NetName == 'Net-(D8-A)' || B.NetName == 'Net-(D10-A)' || B.NetName == 'Net-(D10-K)') && B.NetName != '' && B.NetName != 'unconnected-*') || !(B.NetName != '/Switch?/CTL_P' && B.NetName != '/Switch?/CTL_N' && B.NetName != '/Switch?/RST_SN'))")

@@ -8358,7 +8358,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 177.8 43.18 90)
+		(at 177.8 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8369,25 +8369,25 @@
 		(fields_autoplaced yes)
 		(uuid "e616541e-b1c1-460c-8fe8-b926ad995bdb")
 		(property "Reference" "D3"
-			(at 181.61 43.4974 90)
+			(at 180.34 40.3224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED"
-			(at 181.61 46.0374 90)
+			(at 180.34 42.8624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -8435,7 +8435,7 @@
 			)
 		)
 		(property "Cluster" "DCDC24P15N5"
-			(at 104.14 220.98 0)
+			(at 251.46 -134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
